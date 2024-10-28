@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      body {
+        background-color: lightcyan;
+      }
+      h2 {
+        text-align: center;
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Introduction about me</h2>
+    <script>
+      var My = {
+        name: "Nur-A-Sabah.",
+        age: 15,
+        grade: 8,
+        hobbies: ["Coding", "Reading book", "Listening music."],
+        favsports: "Football.",
+        school: "Mission girls high school.",
+      };
+      var color = ["black", "white", "green", "blue", "red"];
+      document.write("My name is : " + My.name);
+      document.write("<br>");
+      document.write("My age is : " + My.age);
+      document.write("<br>");
+      document.write("My grade is : " + My.grade);
+      document.write("<br>");
+      document.write("My hobbies are : " + My.hobbies);
+      document.write("<br>");
+      document.write("My Favourite sports is : " + My.favsports);
+      document.write("<br>");
+      document.write("My school name is : " + My.school);
+      document.write("<br>");
+      document.write("My Favourite colours are : " + color);
+      document.write("<br>");
+      color.pop();
+      document.write("After poping the colours are : " + color.join("🌈"));
+      document.write("<br>");
+      document.write(
+        "My most favourite colours are : " + color[0] + " and " + color[1]
+      );
+      document.write("<br>");
+    </script>
+  </body>
+</html>
